@@ -59,9 +59,10 @@ function App() {
         <button onClick={() => logout()} style={{ width: "100%", height: 30 }}>Logout</button>
   </div>*/}
 
-      <div>
-        สวัสดี! {displayName} <button onClick={() => logout()} style={{ width: 50 , height: 20 }}>Logout</button>
-      </div>
+        <div style={{ textAlign: "center" }}>
+        สวัสดี! คุณ {displayName} <button variant="outlined" onClick={() => logout()} style={{ width: 80 , height: 20 }}>Logout</button>
+        <hr/>
+        </div>
 
       </header>
       
